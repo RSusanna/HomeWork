@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  HomeWork
 //
-//  Created by Susanna Zakaryan on 09.06.2023.
+//  Created by Susanna R on 09.06.2023.
 //
 
 import UIKit
