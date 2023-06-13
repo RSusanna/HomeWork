@@ -18,12 +18,21 @@
                         <subviews>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="OEb-1X-qd1">
                                 <rect key="frame" x="14" y="239" width="365" height="31"/>
+                                <connections>
+                                    <action selector="redSlideAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="2qp-oW-wml"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Nv4-aW-Esq">
                                 <rect key="frame" x="14" y="369" width="365" height="31"/>
+                                <connections>
+                                    <action selector="blueSliderAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="OI2-Ce-h91"/>
+                                </connections>
                             </slider>
                             <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="0.5" minValue="0.0" maxValue="1" translatesAutoresizingMaskIntoConstraints="NO" id="Whl-Zl-aA5">
                                 <rect key="frame" x="14" y="499" width="365" height="31"/>
+                                <connections>
+                                    <action selector="greenSlideerAction:" destination="BYZ-38-t0r" eventType="valueChanged" id="y6H-fM-4FW"/>
+                                </connections>
                             </slider>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="F6i-0C-XvM">
                                 <rect key="frame" x="16" y="79" width="361" height="128"/>
